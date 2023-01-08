@@ -28,13 +28,13 @@ public class ServiceProfilImpl implements ServiceProfil {
     }
 
     @Override
-    public void deleteProfilById(Long id) {
+    public void deleteProfilById(String id) {
         profilRepository.deleteById(id);
 
     }
 
     @Override
-    public Profil getProfil(Long id) {
+    public Profil getProfil(String id) {
         return profilRepository.findById(id).get();
     }
 

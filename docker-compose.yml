@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  mongo_db:
+    image: mongo
+    container_name: mongoDB
+    restart: always
+    ports:
+      - 27017:27017
+
+
+  productservice:
+    image: profil-mongo
+    container_name: profil-mongo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8080"
+    restart: always
+    depends_on:
+      - mongo_db
+

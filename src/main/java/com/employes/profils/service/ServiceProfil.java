@@ -9,7 +9,7 @@ public interface ServiceProfil {
     Profil saveProfil(Profil p);
     Profil updateProfil(Profil p);
     void deleteProfil(Profil p);
-    void deleteProfilById(Long id);
-    Profil getProfil(Long id);
+    void deleteProfilById(String id);
+    Profil getProfil(String id);
     List<Profil> getAllProfils();
 }

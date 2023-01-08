@@ -10,6 +10,7 @@ import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
 @SpringBootApplication
 public class ProfilsApplication implements CommandLineRunner {
+
     @Autowired
     private ProfilRepository profilRepository;
     @Autowired

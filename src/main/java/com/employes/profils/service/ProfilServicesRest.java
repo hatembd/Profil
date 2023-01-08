@@ -16,11 +16,11 @@ public class ProfilServicesRest {
         return profilRepository.findAll();
     }
     @GetMapping(value = "/listProfils/{id}")
-    public Profil listProfils(@PathVariable(name = "id") Long id){
+    public Profil listProfils(@PathVariable(name = "id") String id){
         return profilRepository.findById(id).get();
     }
     @PutMapping(value = "/listProfils/{id}")
-    public Profil update(@PathVariable(name = "id") Long id, @RequestBody Profil p){
+    public Profil update(@PathVariable(name = "id") String id, @RequestBody Profil p){
         p.setIdProfil(id);
         return profilRepository.save(p);
     }
@@ -30,7 +30,7 @@ public class ProfilServicesRest {
         return profilRepository.save(p);
     }
     @DeleteMapping(value = "/listProfils/{id}")
-    public void delete(@PathVariable(name = "id") Long id){
+    public void delete(@PathVariable(name = "id") String id){
         profilRepository.deleteById(id);
     }
 }

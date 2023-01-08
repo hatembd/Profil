@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: profil-db-config
+data:
+  host: profildb-service
+  database: profilmanagement
