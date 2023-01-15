@@ -4,29 +4,6 @@
     <list default="true" id="991940c1-6e09-4854-a3f9-d0e06b38f2a6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../web-profil/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/employes/profils/ProfilsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employes/profils/ProfilsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/employes/profils/entities/Profil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employes/profils/entities/Profil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/employes/profils/entities/ProjectionProfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employes/profils/entities/ProjectionProfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/employes/profils/repository/ProfilRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employes/profils/repository/ProfilRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/employes/profils/service/ProfilServicesRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employes/profils/service/ProfilServicesRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/employes/profils/service/ServiceProfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employes/profils/service/ServiceProfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/employes/profils/service/ServiceProfilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/employes/profils/service/ServiceProfilImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/profil-app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/profil-springboot.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/profil-db-config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/profil-db-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/profil-mongo.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/employes/profils/ProfilsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/employes/profils/ProfilsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/employes/profils/entities/Profil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/employes/profils/entities/Profil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/profil-app.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/profil-db-config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/profil-db-deployment.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-profil/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-profil/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-profil/src/app/services/service-profile.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-profil/src/app/services/service-profile.service.ts" afterDir="false" />
     </list>
@@ -207,7 +184,7 @@
       <workItem from="1671972915749" duration="1935000" />
       <workItem from="1673029958335" duration="594000" />
       <workItem from="1673117336597" duration="1288000" />
-      <workItem from="1673692080482" duration="9710000" />
+      <workItem from="1673692080482" duration="10459000" />
     </task>
     <servers />
   </component>
