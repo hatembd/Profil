@@ -4,6 +4,8 @@
     <list default="true" id="991940c1-6e09-4854-a3f9-d0e06b38f2a6" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../web-profil/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/profil-springboot.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/profil-springboot.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-profil/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-profil/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-profil/src/app/services/service-profile.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-profil/src/app/services/service-profile.service.ts" afterDir="false" />
     </list>
@@ -184,7 +186,7 @@
       <workItem from="1671972915749" duration="1935000" />
       <workItem from="1673029958335" duration="594000" />
       <workItem from="1673117336597" duration="1288000" />
-      <workItem from="1673692080482" duration="10459000" />
+      <workItem from="1673692080482" duration="10748000" />
     </task>
     <servers />
   </component>
