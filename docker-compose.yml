@@ -1,22 +1,17 @@
-version: '3.3'
+version: '2'
 services:
-  mongo_db:
+  app:
+    container_name: app
+    image: profil-service:2.0
+    restart: always
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
     image: mongo
-    container_name: mongoDB
-    restart: always
+    volumes:
+      - ./data:/data/db
     ports:
-      - 27017:27017
-
-
-  productservice:
-    image: profil-mongo
-    container_name: profil-mongo
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "8888:8080"
-    restart: always
-    depends_on:
-      - mongo_db
-
+      - "27017:27017"
